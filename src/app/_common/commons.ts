@@ -1,5 +1,4 @@
 import { Injectable } from '@angular/core';
-// import { AppComponent } from 'src/app/app.component';
 
 @Injectable({
     providedIn: 'root'

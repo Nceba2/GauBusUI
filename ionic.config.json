@@ -1,5 +1,7 @@
 {
   "name": "GauBus",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
