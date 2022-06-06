@@ -25,6 +25,7 @@ import { VerifyComponent } from './auth/verify/verify.component';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule, 
     IonicModule.forRoot(), 
     AppRoutingModule, 
-    NavBarModule, BrowserAnimationsModule
+    NavBarModule, BrowserAnimationsModule, NgbModule
   ],
   exports: [
     AppService,
